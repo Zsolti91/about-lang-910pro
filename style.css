@@ -1,7 +1,9 @@
 body {
   background: url("code.jpeg") no-repeat center center fixed;
   background-size: cover;
-} 
+}
+
+
 h1, h2, h4, p {
   text-align: center;
   color: yellowgreen;
@@ -73,11 +75,16 @@ ul {
   opacity: 45%;
 }
 
+.profile-card {
+  min-height: calc(100vh - 25px);
+}
+
 .footer {
   position: absolute;
-  width: 99%;
-  height: -20px;
-  margin: 3px;
+  clear: both;
   text-align: center;
+  width: 99%;
   color: rgba(0,153,51,1);
+  height: 25px; 
+  padding: 5px 0px 1px 0px;
 }
